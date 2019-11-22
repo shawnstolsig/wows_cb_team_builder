@@ -1,6 +1,7 @@
 secrets.*
 api_keys.py
 api_test.py
+token.pickle
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
