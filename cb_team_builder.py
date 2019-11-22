@@ -1121,7 +1121,8 @@ team_size = 8
 # # uncomment below when basic UI ready
 # # 2D list of strings from Google Sheets
 try:
-    sheets_output = get_sheets_data(clan_info_spreadsheet_ID, range_name)             
+    sheets_output = get_sheets_data(clan_info_spreadsheet_ID, range_name)        
+    print(sheets_output)     
 except:
     print("Error reaching Google Sheets, exiting. ")
     exit()
