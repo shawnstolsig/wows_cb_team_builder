@@ -1,2 +1,4 @@
 api_keys.py
 api_test.py
+
+secrets.*
